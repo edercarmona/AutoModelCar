@@ -17,4 +17,4 @@ class UART:
         try:
             rcv=self.port.read(15)
         except:
-            print("Warning!!!")        
+            print("UART Lost conection!!!")        
